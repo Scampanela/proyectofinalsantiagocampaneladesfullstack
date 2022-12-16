@@ -1,0 +1,226 @@
+/* reset */ 
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* linea de comentario */
+
+/* color de paginas y logo */
+
+
+
+
+.inicio{
+    background-color: #737170;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family:Arial, Helvetica, sans-serif
+    
+}
+
+
+
+.sobrenosotros{
+    background-color: #d4ac98;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+/* estilos de header */ 
+
+header{ background-color:none;}
+.logo{
+    display: flex;  
+    justify-content: center;
+}
+
+.imagen{  
+    width: 120px;
+   
+  
+}
+
+
+/* estilos de main */ 
+
+main h2, main p{
+    text-align: center;
+     
+}
+
+
+div{
+    text-align: center;
+}
+
+/*-estilos de ul, class de secciones*/
+
+
+ul{
+    list-style: none;
+}
+
+.bg-header{
+    background-color: #737170 !important;
+}
+.secciones{
+    font-size: 18px;
+    font-weight: 600;
+    color: white  !important;
+    text-decoration: none;
+
+}
+
+.secciones:hover{
+    font-size: 18px;
+    font-weight: 600 !important;
+    color: white;
+}
+    
+/* color de cada html */ 
+
+.contacto{
+    background-color:white;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    font-family:Arial, Helvetica, sans-serif;
+    
+    
+}
+
+
+
+.rutinas{
+    background-color: #737170;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.nutricion{
+    background-color: #d4ac98;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+
+
+/* estilos de footer */
+
+footer h4{
+    text-align: center;
+}
+
+footer ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    
+
+}
+
+footer ul li img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* diseño de cada html*/ 
+
+/* Sobre nosotros */ 
+#sobrenosotros{
+    text-align: center;
+}
+
+
+/* tipos de rutina*/
+.contenedor{
+    display: flex;
+    }
+
+    .centrarimagenytexto{
+        justify-content: center;
+    }
+
+
+
+
+/*nutricion deportiva*/ 
+#nutriciondeportiva{
+    text-align: center;
+}
+
+
+/* contacto */ 
+
+.contacto h2{
+    text-align: center;
+}
+
+
+
+
+
+/* estructura index grid */
+
+h1{
+   justify-content: center;
+   text-align: center;
+}
+
+nav div{
+    display: grid;
+    grid-area: span;
+
+}
+
+
+footer h3{
+    text-align: center;
+}
+
+
+
+
+
+
+/* reset */
+/*
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+// importando archivos secundarios 
+
+@import "utilidades/variables";
+@import "utilidades/mixin";
+@import "utilidades/extend";
+@import "contenedores/header";
+
+section{
+    @extend %estilosSection;
+    color: red;
+}
+
+.section-dos{
+    @extend %estilosSection; 
+    color: red($color: yellow);
+}
+
+*/
